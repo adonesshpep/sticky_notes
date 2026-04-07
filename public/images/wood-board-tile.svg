@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="boardA" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ccb084"/>
+      <stop offset="0.5" stop-color="#d9bf94"/>
+      <stop offset="1" stop-color="#c7a979"/>
+    </linearGradient>
+    <linearGradient id="boardB" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c39f6f"/>
+      <stop offset="0.5" stop-color="#d2b082"/>
+      <stop offset="1" stop-color="#ba9667"/>
+    </linearGradient>
+    <linearGradient id="grain" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="rgba(90,62,34,0.10)"/>
+      <stop offset="0.3" stop-color="rgba(90,62,34,0.02)"/>
+      <stop offset="0.7" stop-color="rgba(90,62,34,0.10)"/>
+      <stop offset="1" stop-color="rgba(90,62,34,0.03)"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="256" height="64" y="0" fill="url(#boardA)"/>
+  <rect width="256" height="64" y="64" fill="url(#boardB)"/>
+  <rect width="256" height="64" y="128" fill="url(#boardA)"/>
+  <rect width="256" height="64" y="192" fill="url(#boardB)"/>
+
+  <rect width="256" height="64" y="0" fill="url(#grain)"/>
+  <rect width="256" height="64" y="64" fill="url(#grain)"/>
+  <rect width="256" height="64" y="128" fill="url(#grain)"/>
+  <rect width="256" height="64" y="192" fill="url(#grain)"/>
+
+  <path d="M0 64 H256 M0 128 H256 M0 192 H256" stroke="rgba(84,58,33,0.25)" stroke-width="1"/>
+  <path d="M12 10 C42 14, 92 7, 136 15 S214 21, 250 13" stroke="rgba(92,63,35,0.20)" stroke-width="1" fill="none"/>
+  <path d="M8 78 C56 74, 93 88, 152 79 S230 70, 256 83" stroke="rgba(92,63,35,0.18)" stroke-width="1" fill="none"/>
+  <path d="M4 145 C47 154, 103 136, 158 148 S224 150, 252 138" stroke="rgba(92,63,35,0.16)" stroke-width="1" fill="none"/>
+  <path d="M10 210 C38 204, 88 217, 140 208 S218 199, 252 214" stroke="rgba(92,63,35,0.18)" stroke-width="1" fill="none"/>
+
+  <circle cx="62" cy="102" r="7" fill="rgba(101,71,40,0.18)"/>
+  <circle cx="62" cy="102" r="3" fill="rgba(140,102,64,0.25)"/>
+  <circle cx="181" cy="166" r="8" fill="rgba(101,71,40,0.16)"/>
+  <circle cx="181" cy="166" r="3" fill="rgba(140,102,64,0.24)"/>
+</svg>
